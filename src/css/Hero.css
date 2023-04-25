@@ -1,0 +1,114 @@
+.hero {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.hero__container {
+    margin: 0 auto !important;
+    max-width: 80rem !important;
+    padding: 10px 20px !important;
+}
+
+.hero__bgImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.hero__content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero__contentText {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    max-width: 40rem;
+    font-weight: 400;
+    padding: 20px 25px;
+}
+
+.hero__contentText h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.hero__contentText h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.hero__contentText h1 span {
+    color: #ff4d30;
+    font-weight: 700;
+}
+
+.hero__contentText p {
+    color: dimgray;
+    padding-top: 10px;
+}
+
+.hero__contentBtns {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.hero__btnsBook {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    padding: 18px 30px;
+    transition: all .3s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero__btnsLearn {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
+    padding: 18px 30px;
+    transition: all .3s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.hero__contentImg {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    width: 65%;
+    margin-top: 0.5rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 800px) {
+    .hero__bgImg {
+        display: none;
+    }
+    .hero__content {
+        justify-content: center;
+    }
+    .hero__contentText {
+        text-align: center;
+        align-items: center;
+    }
+    .hero__contentImg {
+        display: none;
+    }
+}
+
