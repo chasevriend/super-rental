@@ -3,7 +3,13 @@ import { Link } from 'react-router-dom';
 import "../css/Hero.css";
 
 const Hero = () => {
-  return (
+    const bookBtn = () => {
+        document
+        .querySelector("#booking-section")
+        .scrollIntoView({ behavior: "smooth" });
+    };
+  
+    return (
     <>
         <section id='home' className='hero'>
             <div className='hero__container'>
@@ -20,7 +26,7 @@ const Hero = () => {
                         </p>
                         <div className="hero__contentBtns">
                             <Link
-                                // onClick={bookBtn}
+                                onClick={bookBtn}
                                 className="hero__btnsBook"
                                 to="/"
                             >
