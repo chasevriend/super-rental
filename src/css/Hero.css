@@ -61,6 +61,7 @@
 .hero__contentBtns {
     margin-top: 20px;
     padding-top: 10px;
+    
 }
 
 .hero__btnsBook {
@@ -73,6 +74,7 @@
     color: white;
     font-weight: bold;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 .hero__btnsLearn {
@@ -85,7 +87,7 @@
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .hero__contentImg {
@@ -110,6 +112,14 @@
     }
     .hero__contentImg {
         display: none;
+    }
+    .hero__contentBtns {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__btnsBook {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 

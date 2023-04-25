@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/Nav.css"
-import CarRentalIcon from '@mui/icons-material/CarRental';
+import Logo from "../logo.png";
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -56,8 +56,8 @@ const Nav = () => {
                 <div className="nav">
                     <div className="nav__left">
                         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQqpv2hGVY8srFS_Fw9a56ZgS8SbLbP3SaA&usqp=CAU" className="nav__logo" />
-                            
+                            {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQqpv2hGVY8srFS_Fw9a56ZgS8SbLbP3SaA&usqp=CAU" className="nav__logo" /> */}
+                            <img src={Logo} className="nav__logo" />
                         </Link>
                     </div>
                     <ul className="nav__links">
