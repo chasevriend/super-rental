@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/Form.css"
-import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+
 
 const Form = () => {
   return (
@@ -13,10 +13,12 @@ const Form = () => {
                         <p className='error-msg'>All fields required!</p>
                         <p className='done-msg'>Check your email to confirm this order.</p>
                         <form className='form'>
-                            <div className='form__carType'>
-                                <label>&nbsp; Select Your Car Model<b>*</b></label>
+                            <div className='form__carType form__left'>
+                                <label className='form__label'>
+                                    &nbsp; Select Your Car Model
+                                    <b>*</b>
+                                </label>
                                 <select>
-                                    <DirectionsCarIcon fontSize='large' />
                                     <option>Select Your Car Model</option>
                                     <option>McLaren 570S</option>
                                     <option>Lamborghini Aventador</option>
@@ -37,7 +39,7 @@ const Form = () => {
                                 </select>
                             </div>
 
-                            <div className="form__dropOff">
+                            <div className="form__dropOff form__left">
                                 <label>
                                     <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-off{" "}
                                     <b>*</b>
@@ -61,7 +63,7 @@ const Form = () => {
                                 ></input>
                             </div>
 
-                            <div className="form__pickUp">
+                            <div className="form__pickUp form__left">
                                 <label htmlFor="droptime">
                                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
                                     Drop-off <b>*</b>
@@ -71,7 +73,7 @@ const Form = () => {
                                     type="date"
                                 ></input>
                             </div>
-                            <button className='form__btn'>Book</button>
+                            <button className='form__btn' type='button'>Book</button>
                         </form>
                         
                     </div>
