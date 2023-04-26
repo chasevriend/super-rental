@@ -1,0 +1,63 @@
+
+.pickCar__header {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.pickCar__header h2 {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.pickCar__header h1 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.pickCar__content {
+    display: flex;
+    align-items: center;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.pickCar__cell {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.pickCar__cell h3 {
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.pickCar__cell p {
+    font-weight: 500;
+    font-size: 18px;
+    color: dimgray;
+}
+
+.pickCar__header p {
+    font-weight: 500;
+    font-size: 18px;
+    color: dimgray;
+    padding: 20px 25px;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 800px) {
+    .pickCar__content {
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+    .pickCar__header p {
+        padding: 0 25px;
+    }
+}
