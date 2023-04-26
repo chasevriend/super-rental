@@ -1,14 +1,3 @@
-#booking-section {
-    position: relative;
-}
-
-.form__container {
-    padding: 0 25px;
-    max-width: 80rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-}
 
 .error-msg {
     color: #721c24;
@@ -42,22 +31,6 @@
     align-items: center;
 }
 
-
-
-.form__contentBox {
-    width: 100%;
-    padding: 4rem 4.5rem 5rem 5.5rem;
-}
-
-h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-
-
-/*
 .form__contentBox {
     background-color: white;
     width: 100%;
@@ -150,12 +123,25 @@ h2 {
     position: relative;
 }
 
+#picktime {
+    padding: 14px 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#droptime {
+    padding: 14px 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .form__dropOff input {
     outline: none;
     color: #878585;
     padding-right: 3rem; 
     border: 1px solid #ccd7e6;
     padding: 12px 15px;
+
 }
 
 .form__dropOff label {
@@ -182,15 +168,15 @@ h2 {
     box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    padding: 20px 30px;
-    width: 50%;
+    margin-top: 52px;
+    padding: 10px 30px;
+    width: 100%;
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-@media (max-width: 400px) {
+ @media (max-width: 700px) {
     .form__contentBox {
         padding: 4rem 2.5rem 5rem 2.5rem;
     }
@@ -198,4 +184,4 @@ h2 {
         display: flex;
         flex-direction: column;
     }
-} */
+} 
