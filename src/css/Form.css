@@ -3,7 +3,7 @@
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -43,7 +43,7 @@
 .form__contentBox {
     background-color: white;
     width: 100%;
-    padding: 4rem 4.5rem 4rem 4.5rem;
+    padding: 3rem 3.5rem 3rem 3.5rem;
     box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
     height: auto;
     position: relative;
@@ -62,7 +62,7 @@
 .form__contentBox h2 {
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 2.7rem;
+    margin-bottom: 1rem;
 }
 
 .form {
@@ -80,7 +80,7 @@
 }
 
 .form__carType label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 1.2rem;
     margin-top: 10px;
@@ -89,7 +89,7 @@
 
 
 .form__carType select {
-    font-size: 1.5rem;
+    font-size: 15px;
     color: #ababab;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
@@ -112,14 +112,14 @@
 }
 
 .form__pickUp label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 1.2rem;
     margin-top: 10px;
 }
 
 .form__pickUp select {
-    font-size: 1.5rem;
+    font-size: 15px;
     color: #ababab;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
@@ -142,13 +142,15 @@
 #picktime {
     padding: 14px 15px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 3px;
 }
 
 #droptime {
     padding: 14px 15px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 3px;
 }
 
 .form__dropOff input {
@@ -157,11 +159,10 @@
     padding-right: 3rem; 
     border: 1px solid #ccd7e6;
     padding: 12px 15px;
-
 }
 
 .form__dropOff label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 1.2rem;
     margin-top: 10px;
@@ -169,13 +170,14 @@
 }
 
 .form__dropOff select {
-    font-size: 1.5rem;
+    font-size: 15px;
     color: #ababab;
     border: 1px solid #ccd7e6;
     border-radius: 3px;
     font-weight: 400;
-    padding: 12px 15px;
+    padding: 14px 15px;
     outline: none;
+    border-radius: 3px;
 }
 
 .form__btn {
@@ -183,12 +185,12 @@
     border: 2px solid #ff4d30;
     border-radius: 0.3rem;
     box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
-    margin-top: 52px;
-    padding: 10px 30px;
+    margin-top: 50px;
+    padding: 13px 30px;
     width: 100%;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 

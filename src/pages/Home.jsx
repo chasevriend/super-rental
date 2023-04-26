@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Form from "../components/Form";
+import PickCar from "../components/PickCar";
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
             {/* Plan Your Trip Now */}
             <Form />
             {/* Vehice Models */}
-
+            <PickCar />
             {/* Why Choose us */}
 
             {/* Testimonials */}
