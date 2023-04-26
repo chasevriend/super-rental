@@ -1,0 +1,201 @@
+#booking-section {
+    position: relative;
+}
+
+.form__container {
+    padding: 0 25px;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.error-msg {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 1rem 1.4rem;
+    margin-bottom: 1.8rem;
+    margin-top: -1rem;
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done-msg {
+    color: #2a6817;
+    background-color: #c3fabe;
+    border-color: #f5c6cb;
+    padding: 1rem 1.4rem;
+    margin-bottom: 1.8rem;
+    margin-top: -1rem;
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.form__contentBox {
+    width: 100%;
+    padding: 4rem 4.5rem 5rem 5.5rem;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+
+/*
+.form__contentBox {
+    background-color: white;
+    width: 100%;
+    padding: 4rem 4.5rem 5rem 5.5rem;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    height: auto;
+    position: relative;
+    z-index: 4;
+    color: white;
+    border-radius: 5px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.form__contentBox h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2.7rem;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form b {
+    color: #ff4d30;
+}
+
+.form__carType {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__carType label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-top: 10px;
+}
+
+.form__carType select {
+    font-size: 1.5rem;
+    color: #ababab;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.form__pickUp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form__pickUp input {
+    outline: none;
+    color: #878585;
+    padding-right: 3rem;
+    border: 1px solid #ccd7e6;
+}
+
+.form__pickUp label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-top: 10px;
+}
+
+.form__pickUp select {
+    font-size: 1.5rem;
+    color: #ababab;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.form__dropOff {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form__dropOff input {
+    outline: none;
+    color: #878585;
+    padding-right: 3rem; 
+    border: 1px solid #ccd7e6;
+    padding: 12px 15px;
+}
+
+.form__dropOff label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-top: 10px;
+}
+
+.form__dropOff select {
+    font-size: 1.5rem;
+    color: #ababab;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.form__btn {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media (max-width: 400px) {
+    .form__contentBox {
+        padding: 4rem 2.5rem 5rem 2.5rem;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+} */
