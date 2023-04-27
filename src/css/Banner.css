@@ -1,4 +1,25 @@
 .banner {
     background-color: #2d2d2d;
     width: 100%;
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.banner h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h2 b {
+    color: #ff4d30;
 }

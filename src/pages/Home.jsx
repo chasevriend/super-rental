@@ -5,6 +5,7 @@ import Form from "../components/Form";
 import PickCar from "../components/PickCar";
 import About from "../components/About";
 import Banner from "../components/Banner";
+import ChooseUs from "../components/ChooseUs";
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
             <About />
             <Banner />
             {/* Why Choose us */}
-
+            <ChooseUs />
             {/* Testimonials */}
 
             {/* FAQs */}
