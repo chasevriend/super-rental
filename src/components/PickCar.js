@@ -1,11 +1,15 @@
 import React from 'react';
 import "../css/PickCar.css";
+import AstonMartin from "../images/aston-martin-vanquish.png";
+import BMW from "../images/bmw-m4.png";
+import Lambo from "../images/lamborghini-aventador.png";
+import McClaren from "../images/mcclaren-570s.png";
 
 const PickCar = () => {
 
     const cars = [
         {
-            Img: "https://o.remove.bg/downloads/04a7d6cc-3210-4fc1-b229-e493d91adbee/06c561d0848a84e64ecff0a33f161dfb-removebg-preview.png",
+            img: McClaren,
             Make: "McClaren",
             Model: "570S",
             Style: "Coupe",
@@ -13,7 +17,7 @@ const PickCar = () => {
             Fuel: "Gasoline"
         },
         {
-            Img: "https://o.remove.bg/downloads/8652049e-c79c-4101-9ea9-da4cadb7d2fc/AventadorSV_01-removebg-preview.png",
+            img: Lambo,
             Make: "Lamborghini",
             Model: "Aventador",
             Style: "Coupe",
@@ -21,15 +25,15 @@ const PickCar = () => {
             Fuel: "Gasoline"
         },
         {
-            Img: "https://o.remove.bg/downloads/142b6474-cc39-4069-b62d-6d1f8a7dc9fd/2021-Porsche-911-Turbo-S-coupe-white-1200x800-25-removebg-preview.png",
-            Make: "Porsche",
-            Model: "911S",
+            img: BMW,
+            Make: "BMW",
+            Model: "M4",
             Style: "Coupe",
             Transmission: "Automatic",
             Fuel: "Gasoline"
         },
         {
-            Img: "https://o.remove.bg/downloads/083e2f52-cabe-46de-9440-55fc2473c84b/aston-vanquish-ftq-removebg-preview.png",
+            img: AstonMartin,
             Make: "Aston Martin",
             Model: "Vanquish",
             Style: "Coupe",
@@ -37,10 +41,6 @@ const PickCar = () => {
             Fuel: "Gasoline"
         }
     ]
-
-    const changeCar = () => {
-
-    }
   
     return (
     <>
@@ -80,11 +80,11 @@ const PickCar = () => {
                     <div className='pickCar__carBtns'>
                         <button>McClaren 570S</button>
                         <button>Lamborghini Aventador</button>
-                        <button>Porsche 911</button>
+                        <button>BMW M4</button>
                         <button>Aston Martin Vanquish</button>
                     </div>
                     <div className='pickCar__carImg'>
-                        <img src={cars[0].Img} />
+                        <img src={cars[3].img} />
                     </div>
                     <div className='pickCar__carStats'>
                         
