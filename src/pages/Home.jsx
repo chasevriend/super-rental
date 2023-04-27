@@ -6,6 +6,8 @@ import PickCar from "../components/PickCar";
 import About from "../components/About";
 import Banner from "../components/Banner";
 import ChooseUs from "../components/ChooseUs";
+import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
 
 const Home = () => {
     return (
@@ -23,9 +25,9 @@ const Home = () => {
             {/* Why Choose us */}
             <ChooseUs />
             {/* Testimonials */}
-
+            <Testimonials />
             {/* FAQs */}
-
+            <FAQ />
             {/* Footer */}
         </>
     )
