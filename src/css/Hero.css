@@ -77,6 +77,11 @@
     margin-right: 20px;
 }
 
+.hero__btnsBook:hover {
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+}
+
 .hero__btnsLearn {
     background-color: black;
     border: 2px solid black;

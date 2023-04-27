@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import "../css/Hero.css";
+import HeroImg from "../images/hero.png";
+import Orange from "../images/orange-mcclaren-570s.png";
 
 const Hero = () => {
     const bookBtn = () => {
@@ -13,7 +15,7 @@ const Hero = () => {
     <>
         <section id='home' className='hero'>
             <div className='hero__container'>
-                <img className='hero__bgImg' src="https://car-rental-ten.vercel.app/static/media/hero-bg.3b5f7a2502f0f81d1490.png" alt=''></img>
+                <img className='hero__bgImg' src={HeroImg} alt=''></img>
                 <div className='hero__content'>
                     <div className="hero__contentText">
                         <h4>Plan your trip now</h4>
@@ -37,7 +39,7 @@ const Hero = () => {
                             </Link>
                         </div>
                     </div>
-                    <img src='https://www.pngmart.com/files/9/Orange-Mclaren-PNG-Free-Download.png'
+                    <img src={Orange}
                         alt='car'
                         className='hero__contentImg'
                     />
