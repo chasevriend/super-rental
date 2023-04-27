@@ -1,0 +1,89 @@
+.footer {
+    margin-top: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 25px;
+    padding-bottom: 100px;
+    gap: 30px;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerCell {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+} 
+
+.footerCell h2 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.footerCell p {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.footerCell a {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #ff4d30;
+}
+
+
+.footerCell__p {
+    color: dimgray;
+} 
+
+.footerCell input {
+    padding: 18px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border: none;
+}
+
+.footerCell__btn {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    padding: 18px 30px;
+    transition: all .3s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+}
+
+@media (max-width: 1000px) {
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerCell {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 30rem;
+    }
+}

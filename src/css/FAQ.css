@@ -1,8 +1,16 @@
 .faq {
-    background-color: white;
+    background-color: #fafafa;
     margin-top: 100px;
+    margin-bottom: 100px;
     width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.bmw {
+    z-index: ;
     position: absolute;
+    left: 0;
 }
 
 .faq__header {
@@ -28,4 +36,35 @@
 .faq__header p {
     color: dimgray;
     padding: 10px 10px;
+}
+
+.faq__content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq__contentCell {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px;
+    border-bottom: 1px solid #fafafa;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
+    align-items: center;
+}
+
+.faq__contentCell p {
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.down-arrow {
+    height: 25px;
+    /* margin-right: auto; */
 }

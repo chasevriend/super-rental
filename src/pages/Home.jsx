@@ -8,6 +8,7 @@ import Banner from "../components/Banner";
 import ChooseUs from "../components/ChooseUs";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             {/* FAQs */}
             <FAQ />
             {/* Footer */}
+            <Footer />
         </>
     )
 }
