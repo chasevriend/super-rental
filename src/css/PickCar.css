@@ -52,6 +52,27 @@
     margin-right: auto;
 }
 
+.pickCar__btns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pickCar__btns p {
+    color: #010103;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .3s;
+    padding: 10px;
+}
+
+.pickCar__btns p:hover {
+    color: #ff4d30;
+}
+
 @media (max-width: 800px) {
     .pickCar__content {
         flex-wrap: wrap;

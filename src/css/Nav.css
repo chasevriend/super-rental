@@ -73,7 +73,7 @@
 }
 
 /* Mobile Responsive */
-@media (max-width: 1160px) {
+@media (max-width: 950px) {
 
     .mobile-nav__links {
         font-size: 40px;
@@ -141,7 +141,7 @@
     align-items: center;
     display: flex;
     font-family: Rubik,sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     gap: 20px;
 }
@@ -178,7 +178,7 @@
 
 /* Desktop Responsive */
 
-@media (max-width: 1160px) {
+@media (max-width: 950px) {
     .nav__btns {
         display: none;
     }
