@@ -1,4 +1,3 @@
-
 .pickCar__header {
     text-align: center;
     margin-top: 100px;
@@ -54,24 +53,75 @@
 
 .pickCar__btns {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    gap: 10px;
+    padding: 10px 25px;
 }
 
-.pickCar__btns p {
-    color: #010103;
+.pickCar__btns button {
+    border: none;
+    background-color: #e9e9e9;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: all .3s;
-    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    transition: all .2s;
 }
 
-.pickCar__btns p:hover {
-    color: #ff4d30;
+.pickCar__btns button:hover {
+    background-color: #ff4d30;
+    color: white;
 }
+
+.pickCar__img {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 50px;
+}
+
+#car-img {
+    /* position: relative;
+    z-index: 1; */
+    z-index: 2;
+    position: absolute;
+    right: 0; 
+    width: 45%;
+    max-width: 300rem;
+    max-height: 200rem;
+    margin-top: 0.5rem;
+}
+
+.pickCar__show {
+    margin-top: 50px;
+    padding: 10px 25px;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pickCar__stats {
+    background-color: #2d2d2d;
+    padding: 90px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.pickCar__statsCell {
+    text-align: left;
+    margin-top: 0;
+}
+
+.pickCar__statsCell h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 
 @media (max-width: 800px) {
     .pickCar__content {

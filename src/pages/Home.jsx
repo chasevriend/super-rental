@@ -3,6 +3,8 @@ import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Form from "../components/Form";
 import PickCar from "../components/PickCar";
+import About from "../components/About";
+import Banner from "../components/Banner";
 
 const Home = () => {
     return (
@@ -15,7 +17,8 @@ const Home = () => {
             {/* Plan Your Trip Now */}
             <Form />
             {/* Vehice Models */}
-            <PickCar />
+            <About />
+            <Banner />
             {/* Why Choose us */}
 
             {/* Testimonials */}
