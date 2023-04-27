@@ -85,9 +85,8 @@
     z-index: 2;
     position: absolute;
     right: 0; 
-    width: 45%;
+    width: 55%;
     max-width: 300rem;
-    max-height: 200rem;
     margin-top: 0.5rem;
 }
 
@@ -113,7 +112,7 @@
 
 .pickCar__statsCell {
     text-align: left;
-    margin-top: 0;
+    top: 0;
 }
 
 .pickCar__statsCell h1 {

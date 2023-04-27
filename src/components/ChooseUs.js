@@ -13,7 +13,7 @@ const ChooseUs = () => {
   
     return (
     <>
-        <section id='choose-us'>
+        <section id='choose-us'> 
             <div className='chooseUs'>
                 <div className='chooseUs__container'>
                     <img src={McClaren} alt='' className='chooseUs__img1' />

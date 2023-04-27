@@ -115,3 +115,13 @@ button:hover {
     }
 }
 
+@media (max-width: 800px) {
+    .chooseUs__contentCell {
+        flex-wrap: wrap;
+       
+    }
+    .chooseUs__contentCell img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

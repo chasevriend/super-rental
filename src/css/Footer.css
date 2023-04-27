@@ -87,3 +87,21 @@ button:hover {
         width: 30rem;
     }
 }
+
+@media (max-width: 800px) {
+    .footer {
+        width: 100%;
+    }
+    .footer__content {
+        width: 100%;
+    }
+    .footerCell {
+        width: 100%;
+    }
+    .footerCell > button, input {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

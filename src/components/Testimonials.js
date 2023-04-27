@@ -17,7 +17,7 @@ const Testimonials = () => {
                     experiences with you.</p>
                 </div>
                 <div className='testimonials__content'>
-                    <div className='testimonials__contentCell'>
+                    <div className='testimonials__contentCell none'>
                         <h2>"Absolutely, the most beautiful cars. My instagram is popping after 
                         renting cars with this site.</h2>
                         <div className='testimonials__cellName'>
