@@ -15,21 +15,19 @@ const Home = () => {
         <>
             <Nav />
 
-            {/* Book a Car Form */}
+            
             <Hero />
 
-            {/* Plan Your Trip Now */}
+            
             <Form />
-            {/* Vehice Models */}
+            
             <About />
             <Banner />
-            {/* Why Choose us */}
+            
             <ChooseUs />
-            {/* Testimonials */}
+            
             <Testimonials />
-            {/* FAQs */}
-            <FAQ />
-            {/* Footer */}
+            
             <Footer />
         </>
     )

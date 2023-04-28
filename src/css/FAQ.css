@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-.faq__contentCell p {
+#q1 p {
     margin-right: auto;
     font-size: 20px;
     font-weight: 700;
@@ -57,11 +57,18 @@
 
 .down-arrow {
     height: 25px;
+    margin-left: auto;
     /* margin-right: auto; */
 }
+
+.active-question {
+    background-color: $text-orange;
+    color: white;
+    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+  }
 
 @media (max-width: 800px) {
     .faq__contentCell {
         width: 100%;
     }
-}
+} 

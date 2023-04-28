@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Testimonials.css";
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import { ForkLeft } from '@mui/icons-material';
+
 
 const Testimonials = () => {
   return (
@@ -40,7 +40,7 @@ const Testimonials = () => {
                             </span>
                             <FormatQuoteIcon style={{color: '#ff4d30', marginLeft: 'auto', fontSize: '50px'}}/>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </section>
