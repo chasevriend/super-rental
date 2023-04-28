@@ -35,7 +35,7 @@ const Hero = () => {
                                 Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
                             </Link>
                             <Link className="hero__btnsLearn" to="/">
-                                Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
+                                Learn More  &nbsp; <i className="fa-solid fa-angle-right"></i>
                             </Link>
                         </div>
                     </div>

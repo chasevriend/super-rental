@@ -40,11 +40,6 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={openNav} to="/team">
-                                Our Team
-                            </Link>
-                        </li>
-                        <li>
                             <Link onClick={openNav} to="/contact">
                                 Contact
                             </Link>

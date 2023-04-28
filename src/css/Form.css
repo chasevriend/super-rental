@@ -194,6 +194,12 @@
     cursor: pointer;
 }
 
+.form__btn:hover {
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+    color: white;
+}
+
  @media (max-width: 700px) {
     .form__contentBox {
         padding: 4rem 2.5rem 5rem 2.5rem;

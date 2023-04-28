@@ -3,7 +3,9 @@ import "../css/FAQ.css";
 import BMW from "../images/bmw-m4.png";
 
 const FAQ = () => {
-  return (
+    
+  
+    return (
     <>
         <section id='faq'>
             <div className='faq'>
