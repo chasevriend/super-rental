@@ -95,12 +95,22 @@ hr {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     .vehiclesBox__img {
-        width: 80%;
+        width: 60%;
         position: relative;
     }
     .vehicles__box {
         width: 100%;
     }
 }
+
+@media (max-width: 414px) {
+    .vehicles__box {
+        width: 100%;
+    }
+
+    .vehiclesBox__img {
+        width: 20%;
+    }
+}   
