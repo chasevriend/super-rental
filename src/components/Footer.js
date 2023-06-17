@@ -9,15 +9,15 @@ const Footer = () => {
                 <div className='footer__content'>
                     <div className='footerCell'>
                         <h2>Super Rental</h2>
-                        <p className='footerCell__p'>We offer a big range of vehicles for all your driving needs.
-                        We have the perfect car to meet your needs.</p>
+                        <p className='footerCell__p'>Unlock the extraordinary and elevate your 
+                        driving experience with our premier supercar rental service that combines 
+                        unrivaled luxury, exhilarating performance, and impeccable service.</p>
                     </div>
                     <div className='footerCell'>
                         <h2>Company</h2>
                         <a href='#'>Los Angeles</a>
                         <a href='#'>Careers</a>
                         <a href='#'>Mobile</a>
-                        <a href='#'>Blog</a>
                         <a href='#'>How we work</a>
                     </div>
                     <div className='footerCell'>

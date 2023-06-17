@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className="hero__contentText">
                         <h4>Plan your trip now</h4>
                         <h1>
-                            Save <span>big</span> with our car rental
+                            Save <span>super</span> with our car rental
                         </h1>
                         <p>
                             Rent the car of your dreams. Unbeatable prices, unlimited miles,

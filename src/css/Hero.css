@@ -36,6 +36,7 @@
     padding: 20px 25px;
 }
 
+
 .hero__contentText h4 {
     font-size: 30px;
     font-weight: 700;
@@ -55,7 +56,7 @@
 
 .hero__contentText p {
     color: dimgray;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 
 .hero__contentBtns {

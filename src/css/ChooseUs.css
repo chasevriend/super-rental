@@ -90,6 +90,7 @@ button:hover {
 .chooseUs__contentCell img {
     margin-left: auto;
     padding: 0 20px;
+    object-fit: contain;
 }
 
 .chooseUs__contentCell h2 {
