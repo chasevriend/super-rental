@@ -3,72 +3,10 @@
     margin-top: 100px;
     margin-bottom: 100px;
     width: 100%;
-}
-
-.faq__header {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 45rem;
-}
-
-.faq__header h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 100px;
-}
-
-.faq__header h1 {
-    padding: 10px 0;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.faq__header p {
-    color: dimgray;
-    padding: 10px 10px;
-}
-
-.faq__content {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-}
-
-.faq__contentCell {
     display: flex;
     justify-content: center;
-    background-color: white;
-    width: 45rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px 30px;
-    border-bottom: 1px solid #fafafa;
-    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
-    cursor: pointer;
-    align-items: center;
 }
 
-#q1 p {
-    margin-right: auto;
-    font-size: 20px;
-    font-weight: 700;
+.faq__accordian {
+    
 }
-
-.down-arrow {
-    height: 25px;
-    margin-left: auto;
-    /* margin-right: auto; */
-}
-
-.active-question {
-    background-color: $text-orange;
-    color: white;
-    box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
-  }
-
-@media (max-width: 800px) {
-    .faq__contentCell {
-        width: 100%;
-    }
-} 
